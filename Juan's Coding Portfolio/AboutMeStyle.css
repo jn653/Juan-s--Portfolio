@@ -1,0 +1,174 @@
+﻿body {
+    background: linear-gradient(-45deg, black, grey );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0px;
+}
+
+.nav {
+    background-color: transparent;
+/**/    /*margin-left:auto;
+    text-align:right;*/
+}
+
+
+    .nav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-left: auto;
+    }
+
+    .nav li {
+        float: right;
+        padding: 20px;
+        
+    }
+
+        .nav li a {
+            color: chartreuse;
+            text-align: right;
+            text-decoration: none;
+            width: 100px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: bold;
+            
+        }
+
+    .nav a:hover {
+        border-radius: 25px;
+        text-shadow: 0px 0px 20px white;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
+    .AboutMeContainer{
+       /* border: solid 4px;*/
+        /*border-color: red;*/
+        width: 610px;
+        height: 100vh;
+        padding-top: 40px;
+/*        float:right;*/
+        margin:auto;
+        
+    }
+
+    .BioBox{
+        border: solid 2px;
+        box-shadow: 0px 0px 10px white;
+        
+   }
+
+    .BioBox h1{
+        text-align:center;
+        padding-bottom: 40px;
+/*        padding-top: 80px;
+*/        
+        text-shadow: 0px 0px 20px black;
+    }
+
+        .BioBox h2 {
+            color: white;
+            text-shadow: 0px 0px 10px black;
+        }
+
+.SkillsBox {
+    border: solid 2px;
+    box-shadow: 0px 0px 10px white;
+    margin-top: 70px;
+
+}
+
+    .SkillsBox h1 {
+        text-align: center;
+        padding-bottom: 40px;
+        text-shadow: 0px 0px 20px black;
+    }
+/*
+.SkillsBox images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    */
+
+
+
+.SkillsBox img {
+   
+    width: 16%;
+    height: 16%;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 10px;
+   
+}
+
+.img {
+    box-shadow: 0px 0px 20px black;
+ 
+}
+
+.img:hover{
+    box-shadow: 0px 0px 10px white;
+    
+}
+
+.profilepic img{
+    width: 20%;
+    height: 16%;
+    margin:auto;
+    display:block;
+    margin-top: 50px;
+    
+    
+}
+
+.ContactBox {
+    border: solid 2px;
+    box-shadow: 0px 0px 10px white;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+    .ContactBox h1 {
+        text-align: center;
+        padding-bottom: 40px;
+        text-shadow: 0px 0px 20px black;
+    }
+
+    .ContactBox img {
+        width: 16%;
+        height: 16%;
+        padding: 20px;
+        margin-top: 20px;
+        margin: 10px;
+        margin-left: 75px;
+        align-content: center;
+        box-shadow: 0px 0px 20px black;
+    }
+
+
+
+
+    .ContactBox img:hover {
+        box-shadow: 0px 0px 10px white;
+    }
+
+
+@keyframes gradient {
+
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,101 @@
+﻿body {
+    /*animation: backgroundColorChange 7s infinite;
+    animation-direction : alternate;*/
+    /* background: linear-gradient(-45deg, black, grey);
+    animation: gradient 15s ease infinite;*/
+    background: linear-gradient(-45deg, black, grey, lightcyan, crimson );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+/*.navbar{
+    margin-left: auto;
+    text-align:right;
+}
+
+.navbar ul{
+    list-style:none;
+}
+
+    .navbar li {
+        text-decoration: none;
+        display: inline;
+        padding-top: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px white, 0px 0px 20px white;
+       
+        
+        
+    }*/
+
+
+
+.titleCard{
+    text-align: center;
+    padding-top: 190px;
+}
+
+    .titleCard h1 {
+        font-size: 50px;
+        font-family: 'Lucida Calligraphy';
+        /*    color: white;*/
+        animation: change-color-title 15s ease infinite;
+        text-shadow: 0 0 40px white, 0 0 10px white, 0 0 21px white;
+    }
+
+    .titleCard h2 {
+        font-size: 30px;
+        animation: change-color-title 15s ease infinite;
+        text-shadow: 0 0 40px white, 0 0 10px white, 0 0 21px white;
+    }
+
+.titleCard button{
+   border: none;
+   text-decoration: none;
+   font-size: large;
+   border-radius: 20px;
+   cursor: pointer;
+   background-color: white;
+   box-shadow: 0px 0px 4px 4px black;
+}
+
+.titleCard button:hover{
+    background-color:black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+
+
+@keyframes gradient{
+
+
+    0% {
+       background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+@keyframes change-color-title {
+
+
+    50% {
+        color: white;
+    }
+
+    70% {
+        color: lightcyan;
+    }
+
+    
+    
+}
