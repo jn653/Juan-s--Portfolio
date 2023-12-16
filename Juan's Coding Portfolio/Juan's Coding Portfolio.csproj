@@ -72,14 +72,19 @@
     <Content Include="homepageStyle.css" />
     <Content Include="Index.html" />
     <Content Include="pics\asp.png" />
+    <Content Include="pics\axure-removebg-preview.png" />
     <Content Include="pics\bootstrap%281%29.png" />
     <Content Include="pics\bootstrap.png" />
     <Content Include="pics\c-plus-plus.png" />
     <Content Include="pics\csharp.png" />
     <Content Include="pics\css3.png" />
+    <Content Include="pics\escort helping hand.png" />
+    <Content Include="pics\figma-removebg-preview.png" />
+    <Content Include="pics\FinanceFriend.png" />
     <Content Include="pics\github%281%29.png" />
     <Content Include="pics\github.png" />
     <Content Include="pics\gmail.png" />
+    <Content Include="pics\google_slides-removebg-preview.png" />
     <Content Include="pics\HouseRealEstateProjectImg.png" />
     <Content Include="pics\html5.png" />
     <Content Include="pics\ISRA Capstone Project img.png" />
@@ -98,6 +103,7 @@
     <Content Include="pics\juanpic9-transformed.png" />
     <Content Include="pics\juanpic9.png" />
     <Content Include="pics\linkedin.png" />
+    <Content Include="pics\micropowerpoint-removebg-preview.png" />
     <Content Include="pics\mysql.png" />
     <Content Include="pics\react.png" />
     <Content Include="pics\Sandwhich builder web pic.png" />
@@ -105,6 +111,7 @@
     <Content Include="pics\SandwichBuilderProjectimg.png" />
     <Content Include="pics\Screenshot 2023-09-21 at 10-43-32 Places to Travel.png" />
     <Content Include="pics\visual.png" />
+    <Content Include="pics\youtube-removebg-preview.png" />
     <Content Include="Projects.html" />
     <Content Include="ProjectsStyle.css" />
     <Content Include="Web.config" />
